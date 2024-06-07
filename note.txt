@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="contact.css" />
+
+document.getElementById('status-message').style.display =
+                  'block';
+                document.getElementById('status-message').textContent =
+                  'Message sent successfully!';
+
+
+
+document.getElementById('status-message').style.display =
+                  'block';
+                document.getElementById('status-message').textContent =
+                  'Failed to send message.';
+                document.getElementById('status-message').style.color = 'red';
+
+<p id="status-message"></p>
+
